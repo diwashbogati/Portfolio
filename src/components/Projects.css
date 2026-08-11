@@ -22,7 +22,7 @@
 
 .project-icon-wrapper {
   background: rgba(180, 151, 207, 0.08);
-  border: 1px solid rgba(180, 151, 207, 0.15);
+  border: 1px solid rgba(180, 151, 207, 0.2);
   width: 56px;
   height: 56px;
   border-radius: 12px;
@@ -37,7 +37,7 @@
   color: var(--color-accent-bright);
   background: rgba(180, 151, 207, 0.15);
   border-color: var(--color-accent-bright);
-  box-shadow: 0 0 12px rgba(180, 151, 207, 0.25);
+  box-shadow: 0 0 12px rgba(180, 151, 207, 0.3);
   transform: rotate(5deg);
 }
 
@@ -122,7 +122,7 @@
   display: flex;
   gap: 1rem;
   margin-top: auto;
-  border-top: 1px solid rgba(180, 151, 207, 0.1);
+  border-top: 1px solid rgba(0, 242, 254, 0.1);
   padding-top: 1.25rem;
 }
 

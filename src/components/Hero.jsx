@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { Github, ArrowRight, MapPin, Terminal } from './Icons';
-import PixelBlast from './PixelBlast';
 import './Hero.css';
 
 const Hero = () => {
@@ -60,29 +59,6 @@ const Hero = () => {
 
   return (
     <section id="home" className="hero-section">
-      {/* Background PixelBlast Effect */}
-      <div className="hero-bg">
-        <PixelBlast
-          variant="circle"
-          pixelSize={5}
-          color="#B497CF"
-          patternScale={2.5}
-          patternDensity={1.2}
-          pixelSizeJitter={0.4}
-          enableRipples={true}
-          rippleSpeed={0.35}
-          rippleThickness={0.12}
-          rippleIntensityScale={1.5}
-          liquid={true}
-          liquidStrength={0.15}
-          liquidRadius={1.1}
-          liquidWobbleSpeed={4.8}
-          speed={0.4}
-          edgeFade={0.3}
-          transparent={true}
-        />
-      </div>
-
       <div className="hero-container">
         <div className="hero-badge">
           <Terminal size={14} className="badge-icon" />

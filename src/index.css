@@ -1,17 +1,17 @@
 /* Modern CSS Reset & Typography */
 :root {
-  --color-bg: #07050a;
-  --color-card-bg: rgba(15, 11, 25, 0.65);
-  --color-card-border: rgba(180, 151, 207, 0.15);
+  --color-bg: #020204;
+  --color-card-bg: rgba(10, 10, 16, 0.75);
+  --color-card-border: rgba(255, 255, 255, 0.08);
   --color-card-hover-border: rgba(180, 151, 207, 0.4);
   
-  --color-text-primary: #f5f3f7;
+  --color-text-primary: #ffffff;
   --color-text-secondary: #a9a2b3;
-  --color-text-muted: #746d7e;
+  --color-text-muted: #6b6377;
   
-  --color-accent: #B497CF;
-  --color-accent-bright: #d8b4fe;
-  --color-accent-dark: #6b21a8;
+  --color-accent: #b497cf;
+  --color-accent-bright: #d8c5ed;
+  --color-accent-dark: #5b21b6;
   
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-heading: 'Space Grotesk', var(--font-sans);
@@ -50,7 +50,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(180, 151, 207, 0.2);
+  background: rgba(180, 151, 207, 0.25);
   border-radius: 4px;
 }
 
@@ -101,7 +101,7 @@ p {
 .glass-card:hover {
   border-color: var(--color-card-hover-border);
   transform: translateY(-4px);
-  box-shadow: 0 12px 40px 0 rgba(180, 151, 207, 0.1);
+  box-shadow: 0 12px 40px 0 rgba(180, 151, 207, 0.15);
 }
 
 /* Glowing Elements */
@@ -111,10 +111,9 @@ p {
 
 .glow-accent {
   color: var(--color-accent-bright);
-  text-shadow: 0 0 10px rgba(216, 180, 254, 0.3);
+  text-shadow: 0 0 10px rgba(180, 151, 207, 0.3);
 }
 
-/* Grid Background Pattern overlay on body */
 .grid-overlay {
   position: fixed;
   inset: 0;
@@ -130,7 +129,7 @@ p {
 /* Buttons */
 .btn-primary {
   font-family: var(--font-mono);
-  background: linear-gradient(135deg, var(--color-accent-dark) 0%, #4c1d95 100%);
+  background: linear-gradient(135deg, var(--color-accent-dark) 0%, #3b0764 100%);
   color: white;
   border: 1px solid rgba(180, 151, 207, 0.3);
   padding: 0.75rem 1.5rem;
@@ -175,7 +174,7 @@ p {
 /* Tag Badge */
 .tag-badge {
   font-family: var(--font-mono);
-  background: rgba(180, 151, 207, 0.1);
+  background: rgba(180, 151, 207, 0.08);
   color: var(--color-accent-bright);
   border: 1px solid rgba(180, 151, 207, 0.2);
   padding: 0.25rem 0.75rem;
@@ -186,7 +185,7 @@ p {
 }
 
 .tag-badge:hover {
-  background: rgba(180, 151, 207, 0.2);
+  background: rgba(180, 151, 207, 0.18);
   border-color: var(--color-accent-bright);
 }
 

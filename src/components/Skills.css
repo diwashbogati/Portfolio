@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  border-bottom: 1px solid rgba(180, 151, 207, 0.1);
+  border-bottom: 1px solid rgba(180, 151, 207, 0.15);
   padding-bottom: 1rem;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .skill-tag:hover {
-  background: rgba(180, 151, 207, 0.08);
+  background: rgba(0, 242, 254, 0.05);
   border-color: var(--color-accent-bright);
   transform: translateY(-2px);
 }
