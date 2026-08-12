@@ -173,3 +173,59 @@ export const CheckCircle = ({ size, ...props }) => (
     <polyline points="22 4 12 14.01 9 11.01" />
   </IconWrapper>
 );
+
+export const Server = ({ size, ...props }) => (
+  <IconWrapper size={size} {...props}>
+    <rect x="2" y="2" width="20" height="8" rx="2" ry="2" />
+    <rect x="2" y="14" width="20" height="8" rx="2" ry="2" />
+    <line x1="6" y1="6" x2="6.01" y2="6" />
+    <line x1="6" y1="18" x2="6.01" y2="18" />
+  </IconWrapper>
+);
+
+export const Cpu = ({ size, ...props }) => (
+  <IconWrapper size={size} {...props}>
+    <rect x="4" y="4" width="16" height="16" rx="2" />
+    <rect x="9" y="9" width="6" height="6" />
+    <line x1="9" y1="1" x2="9" y2="4" />
+    <line x1="15" y1="1" x2="15" y2="4" />
+    <line x1="9" y1="20" x2="9" y2="23" />
+    <line x1="15" y1="20" x2="15" y2="23" />
+    <line x1="20" y1="9" x2="23" y2="9" />
+    <line x1="20" y1="14" x2="23" y2="14" />
+    <line x1="1" y1="9" x2="4" y2="9" />
+    <line x1="1" y1="14" x2="4" y2="14" />
+  </IconWrapper>
+);
+
+export const ExternalLink = ({ size, ...props }) => (
+  <IconWrapper size={size} {...props}>
+    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+    <polyline points="15 3 21 3 21 9" />
+    <line x1="10" y1="14" x2="21" y2="3" />
+  </IconWrapper>
+);
+
+export const Maximize2 = ({ size, ...props }) => (
+  <IconWrapper size={size} {...props}>
+    <polyline points="15 3 21 3 21 9" />
+    <polyline points="9 21 3 21 3 15" />
+    <line x1="21" y1="3" x2="14" y2="10" />
+    <line x1="3" y1="21" x2="10" y2="14" />
+  </IconWrapper>
+);
+
+export const Minimize2 = ({ size, ...props }) => (
+  <IconWrapper size={size} {...props}>
+    <polyline points="4 14 10 14 10 20" />
+    <polyline points="20 10 14 10 14 4" />
+    <line x1="10" y1="14" x2="3" y2="21" />
+    <line x1="21" y1="3" x2="14" y2="10" />
+  </IconWrapper>
+);
+
+export const Shield = ({ size, ...props }) => (
+  <IconWrapper size={size} {...props}>
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+  </IconWrapper>
+);
